@@ -13,7 +13,7 @@ class TimeExmpl{
     int n=20;
     void method1(){
         for(int i=0;i<n;i++){
-//            System.out.println(i);
+           System.out.println(i);
         }
         System.out.println("the time complexity for above one is O(n)  ");
     }
