@@ -1,10 +1,13 @@
 package linkedListProblems.singleLiknedList;
 
+import java.util.PriorityQueue;
+
 public class LinkedListIntro {
     public static void main(String[] args) {
         System.out.println("checking");
+        PriorityQueue<Integer> pq= new PriorityQueue<>();
         int n = 5;
-        Node head = new Node(15);
+        Node head = new Node(0);
         Node node = head;
         while (n > 0) {
             // node = node.next;
@@ -27,3 +30,12 @@ class Node {
         this.num = num;
     }
 }
+
+
+
+
+
+
+
+
+
